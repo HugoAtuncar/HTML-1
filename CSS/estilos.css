@@ -16,6 +16,12 @@ body{
 	font-family: sans-serif;
 }
 
+button{
+
+	display: block;
+	margin-bottom: 10px;
+	padding: 0.5em 1em;
+}
 header{
 
 	background-color:#E52934;
@@ -116,4 +122,24 @@ textarea{
 
 	display: inline-block;
 	width: 182px;
+}
+
+.serie-info{
+	
+	float: left;
+	padding: 4%;
+	width: 25%;
+}
+
+.vista-previa{
+
+	overflow: hidden;
+	margin-left: 3%;
+}
+
+.vista-previa img {
+
+	float: left;
+	padding: 2%;
+	width: 60%	
 }
