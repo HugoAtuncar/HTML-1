@@ -19,6 +19,7 @@ body{
 button{
 
 	display: block;
+	font-size: 1em;
 	margin-bottom: 10px;
 	padding: 0.5em 1em;
 }
@@ -28,6 +29,17 @@ header{
 	height: 80px;
 	padding-right: 64px;
 	padding-left: 64px;
+}
+
+header input {
+  border-radius: 5px;
+  box-sizing: border-box;
+  float: right;
+  font-size: 1em;
+  padding-left: 10px;
+  height: 30px;
+  width: 200px;
+  margin-top: 25px;
 }
 
 nav{
@@ -128,7 +140,7 @@ textarea{
 	
 	float: left;
 	padding: 4%;
-	width: 25%;
+	width: 20%;
 }
 
 .vista-previa{
@@ -142,4 +154,30 @@ textarea{
 	float: left;
 	padding: 2%;
 	width: 60%	
+}
+
+@media screen and (max-width: 800px) {
+  nav { display: none; }
+  .serie {
+    width: 22%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+  }
+  .serie:nth-child(5) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header { padding: 0 1em; }
+  .serie {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .serie:nth-child(3n + 1) {
+    margin-right: 0;
+  }
+  .serie:nth-child(5) {
+    margin-right: 5%;
+  }
 }
