@@ -1,0 +1,58 @@
+body{
+background-color: #F3F3F3;
+font: 12px;
+font-family: sans-serif;
+}
+
+header{
+background-color:#E52934;
+height: 80px;
+padding-right: 64px;
+padding-left: 64px;
+}
+
+nav{
+display: inline-block;
+vertical-align: top;
+}
+
+nav ul{
+margin: 0px;
+line-height: 80px;
+}
+
+nav ul li{
+display: inline;
+margin-right: 32px;
+font-weight: bold;
+line-height: 80px;
+}
+
+a{
+color: #ffffff;
+text-decoration: none;
+}
+
+a:hover{
+color: #d1d1d1;
+}
+
+.formBuscar{
+float: right;
+margin-top: -45px;
+}
+
+.logo{
+width: 100px;
+margin-top: 21px;
+}
+
+.series{
+padding-left: 16px;
+padding-right: 16px;	
+}
+
+.serie{
+display: inline-block;
+width: 182px;
+}
