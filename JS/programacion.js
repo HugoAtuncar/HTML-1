@@ -44,3 +44,16 @@ var suma = function (a,b){
 var imprimir = function(a,b,c){
     console.log(a+" "+b + c);
 }
+
+/*
+*FUNCIONES
+*
+*/
+var suma = function(){
+    return 5+10;
+};
+
+//console.log(suma());
+suma();
+
+
